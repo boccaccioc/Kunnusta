@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- always put your name in your work -->
+    <meta name="author" content="Colin Boccaccio">
+    <!-- always label your name with a title -->
+    <title> Report 1: Colin Boccaccio</title>
+    <!-- scale page to fit entire screen, so it properly fills non-desktop devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- stop the web browser from ever caching this page or its images -->
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    
+    <!-- style for this page -->
+    <link rel="stylesheet" href="style.css">
+   
+
+</head>
+<body>
+
+<div>
+    <h1>Link to demo video - <a href="https://drive.google.com/file/d/1UPy-qSU9qEsl1RCMw4tu7EScnK8zRSt0/view?usp=sharing">here</a></h1>
+    <h2>Data</h2>
+    <p>
+        The API that I am using is called Yahoo Finance Low Latency. 
+        This API returns data about the stock in the query, such as price, ticker, trading hours, and price points throughout different times of the most recent day's trading.
+        From this data, I return from my server, upon query of a equity name, the ticker of the stock, the price, the date that the data is from, and two arrays (times and the prices that they map to).
+        Unfortunately, as of very recently, I cannot access this JSON data due to an excess of API calls for the day,
+        but the link to the API is here (https://rapidapi.com/finance.yahoo.api/api/yahoo-finance-low-latency?endpoint=apiendpoint_0361945e-e27c-4b15-a61e-1deddb4ef50a)
+        and allows for "Testing Endpoints" without signup, which will show what JSON is returned.
+    </p>
+    <h2>Progress</h2>
+    <p>
+        I had planned to implement user sign in system for this progress report, but I instead opted to work
+        on other parts of my project, as a lot of useful information for using these sign ins is still being taught.
+        So far, I have a fully functioning server, which returns a JSON that is described in the above section. 
+        Additionally, the front-end is functional at a basic level, and allows for viewing a couple of stocks, and information on them,
+        incuding a graph of the most recent day's price history (this is done using the vue-trend-chart component).
+    </p>
+    <h2>Concerns</h2>
+    <p>
+       I am having some issues with my API, but really don't want to switch. I am hoping that the API will function correctly tomarrow
+       and only stopped working due to an excess of requests made (it abruptly stopped working after no changes were made to the server)
+    </p>
+    <h2>Learning</h2>
+    <p>
+      I really feel that I am much better and more confident at using different resources online, such as APIs and components. 
+      This is something that used to really intimidate and frustrate me, but I am at a point now where I can read the documentation
+      and be able out how to implement it in my project in a timely manner.
+    </p>
+    <h2>Plan</h2>
+    <p>
+      I plan to add in some basic home page customization, as well as implementing the log in system for the next progress check.
+      Additionally I plan on starting to create some tests, so that I do not have to do all my test making at the last minute on the final progress check.
+    </p>
+    <h2>Summary</h2>
+    <p>
+        I am overall confident that I can implement many of the features that I hoped to,
+        but I am also starting to realize that some of the things I hoped to do,
+        such as a paper trading page, might be to ambitious. Over the next week I will see if I can try to 
+        figure out ways to make more feasible implementations of some of these kinds of features that I want.
+    </p>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+/*
+ * Bare bones styling
+ *
+ * @author Colin Boccaccio
+ */
+ @charset "utf-8";
+
+
+ /* general styles */
+ body {
+     background-color: rgb(241, 216, 226);
+ }

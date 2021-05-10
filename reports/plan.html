@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- always put your name in your work -->
+    <meta name="author" content="Colin Boccaccio">
+    <!-- always label your name with a title -->
+    <title> Plan: Colin Boccaccio</title>
+    <!-- scale page to fit entire screen, so it properly fills non-desktop devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- stop the web browser from ever caching this page or its images -->
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    
+    <!-- style for this page -->
+    <link rel="stylesheet" href="style.css">
+   
+
+</head>
+<body>
+
+<div>
+    <h2>Idea</h2>
+    <p>
+        I plan to make a site that allows for users to see financial data of 
+        companies that are publicly traded to allow for people to educate themselves
+        and monitor investments that they have made. Ideally, I would have more advanced
+        features such as the ability for data to be displayed on graphs, and comparisons
+        of certain metrics to be made between companies over time.
+    </p>
+    <h2>Scope</h2>
+    <p>
+       This site will allow include functionality such as organizing what metrics are shown,
+       ther order in which they appear, what statistics show up on graphs, and overall styling
+       of multiple diffent parts of the page. When a user bookmarks a stock, it will be
+       saved in a database that they bookmarked that stock, and there will be an option for 
+       the user to select the number of shares that they own, so profit/losses can be displayed.
+       The user will also be able to customize where things go on their homepage, which will be
+       stored in the database.
+    </p>
+    <h2>Data Source</h2>
+    <p>
+       I plan to use this API (https://www.alphavantage.co/documentation/) which will allow 
+       for method calls to recieve JSON's of each equities price history.
+    </p>
+    <h2>Data Structure</h2>
+    <p>
+      I plan to use a JSON file that is an array of users. For each user there will be
+      data about what stocks are bookmarked, and the amount of the stock the user reports
+      owning of the stock, as well as data logging how their homepage was structured.
+    </p>
+    <h2>UI Design</h2>
+    <p>
+      Link to wireframe - <a href="https://preview.uxpin.com/3955757c0c306db37141cd6db43d15fd00a45903#/pages//simulate/sitemap?mode=i">here</a>
+    </p>
+    <h2>Anticipated Timeline</h2>
+    <ul>
+        <li>
+           <h5> Progress Check #1 </h5>
+           <p> 
+               At this point, I plan to be able to display most of the information
+                for some select companies, and have a data structure created to allow for logging
+                in and seeing a page unique to that log in. I will check this progress by attempting
+                sign into different accounts and test that the home screen is representative of what is in 
+                the data.
+           </p>
+        </li>
+        <li>
+            <h5> Progress Check #2 </h5>
+            <p> 
+                For the second progress check, I plan to have implemented an administrator account
+                that has the ability to see data from users. Additionally I plan to have any stock data 
+                available through some search function. I will test this by signing into the administrator 
+                account and making sure that they can view the data and that it is accurate.
+            </p>
+         </li>
+         <li>
+            <h5> Progress Check #3 </h5>
+            <p> 
+                For the third check, I plan to have fully customizable home screens for each 
+                user that have desired styling and equities displayed. The visuals of the site as well as the 
+                code will be cleaned up, and debugging and handling of exceptions will be fleshed out. I will test
+                this stage by trying to test edge cases and cause errors and make sure that most of the obvious
+                errors are handled.
+            </p>
+         </li>
+    </ul>
+</div>
+
+
+</body>
+</html>

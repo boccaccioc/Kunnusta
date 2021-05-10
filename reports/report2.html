@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- always put your name in your work -->
+    <meta name="author" content="Colin Boccaccio">
+    <!-- always label your name with a title -->
+    <title> Report 2: Colin Boccaccio</title>
+    <!-- scale page to fit entire screen, so it properly fills non-desktop devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- stop the web browser from ever caching this page or its images -->
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    
+    <!-- style for this page -->
+    <link rel="stylesheet" href="style.css">
+   
+
+</head>
+<body>
+
+<div>
+    <h1>Link to demo video - <a href="https://drive.google.com/drive/folders/1mEb6EKADBlKQfcuNwXU43pQLSriL7G4Q?usp=sharing">here</a></h1>
+    <h2>Data</h2>
+    <p>
+        This week, I created a data structure on my server to hold user data. This data structure holds user IDs
+        mapped to the tickers of their stocks of choice, which are then used by the front end to make a call to the api
+        to retrieve the stock data for that ticker, which is displayed on that users home page. 
+    </p>
+    <h2>Progress</h2>
+    <p>
+        I have added the google OAuth for allowing users to sign in through google. For users that are signed in, they see
+        the stocks that are mapped to their ID in the data base (in my server as of now). Users can hit the customize button,
+        and then are able to drag around and change the order of stocks on their home page. This data is saved and 
+        sent to the data base, so they are saved to each user (until the server is restarted). Additionally I spent a bit of time
+        cleaning up the styling of the site.
+    </p>
+    <h2>Concerns</h2>
+    <p>
+       I had issues with my API again this week, I was able to make requests, but some elements in arrays that I need
+       the data of were null, which led to a lot of time debugging, as I assumed the error was on my part and not the part of the API.
+       I was able to fix this issue, but I am concerned that if this API continues to give me more issues I may have to switch to another API.
+    </p>
+    <h2>Learning</h2>
+    <p>
+     This week, I learned about how sites manage different users, and how to have an organization like google help with this process.
+     Additionally, I now know that API data can be faulty and now that is a spot that I will know to check in my debugging.
+    </p>
+    <h2>Plan</h2>
+    <p>
+      I plan on having all of my site and server up and running through heroku. Additionally, I plan on implementing different
+      pages for different equities, and options to add those new equities to your home page equites as a user. Lastly, I plan to move
+      all of my user data on to a data base (likely firebase).
+    </p>
+    <h2>Summary</h2>
+    <p>
+       I feel that I made significant progress this week, and am confident that I can finish all of the
+       things that I have planned for next week.
+    </p>
+</div>
+
+
+</body>
+</html>

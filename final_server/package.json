@@ -1,0 +1,32 @@
+{
+  "name": "final_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "local-only": "nodemon server.js --local-only",
+    "local-only-with-google-auth": "nodemon server.js --local-only-with-google-auth"
+  },
+  "dependencies": {
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.6.0",
+    "morgan": "^1.10.0",
+    "morgan-body": "^2.6.5",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-http": "^0.3.0",
+    "unirest": "^0.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "author": "Colin Boccaccio",
+  "license": "ISC"
+}
